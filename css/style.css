@@ -1,0 +1,309 @@
+
+
+.navbar-brandname {
+    font-family: Croissant One;
+    font-weight: bold;
+    font-size: 35px!important;
+    color: #008037!important;
+    text-align: bottom;
+}
+
+body {
+    font-family: Montserrat;
+    font-size: 20px;
+    margin: 0;
+    color:#3c4e6a;
+}
+
+main {
+    padding-bottom: 20px;
+}
+
+.nav-btn {
+    border-radius: 25px;
+    padding: 7px 17px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.28s;
+}
+
+nav-btn:hover {
+    background-color: white;
+    color: #008037;
+    border-color: #008037;
+    border-radius: 8%;
+}
+
+.btn1 {
+    background-color: #ffffff;
+    color: #008037;
+    border: 2px solid #008037;
+    margin-right: 10px;
+}
+
+.btn1:hover {
+    background-color: #54c08129;
+    color: #008037;
+    text-decoration: none;
+}
+
+.btn2 {
+    background-color: #008037;
+    color:  white;
+    border: 2px solid #008037;
+}
+
+.btn2:hover {
+    background-color: #008037de;
+    color: white;
+    text-decoration: none;
+}
+
+.nav-elm {
+    text-decoration: none;
+    font-weight: bolder;
+    color: #3c4e6a;
+    margin-right: 18px;
+}
+
+.nav-elm:hover {
+    text-decoration: none;
+    color:#3c4e6aac;
+}
+
+.content-block {
+    display: block;
+    box-sizing: border-box;
+    border-color: 0 0 0 100%;
+    margin-bottom: 10px;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.content-block1 {
+    background-color: #008037;
+    color: white;
+}
+
+.content-block2 {
+    background-color: #ecaf8a;
+}
+
+.content-inner-half {
+    display: block;
+    justify-content:  center;
+    align-items: center;
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.content-inner-third {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    width: 33.33%;
+    float: left;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: 0 0 0 0%;
+}
+
+@media  screen and (max-width: 600px) {
+    .content-inner-half {
+        width: 100%;
+    }
+}
+
+.be-with-us-title {
+    padding-top: 35px;
+    margin-bottom: 30px;
+    font-family: Candal;
+    font-size: 50px;
+    color: #ecaf8a;
+}
+
+.btn3 {
+    background-color: #ecaf8a;
+    color: white;
+    border: none;
+}
+
+.btn3:hover {
+    background-color: #ecb08ad3;
+    text-decoration: none;
+    color: white;
+}
+
+.new-dish-img {
+    max-width: 100%;
+    height: auto;
+    float: right!important;
+}
+
+.new-dish-subtitle {
+    color:#008037;
+    border:none;
+}
+
+.new-dish-title {
+    padding-top: 50px;
+    font-family: Candal;
+    font-size: 50px;
+}
+
+.p-inner-block {
+    text-align: justify;
+    padding-left: 17%;
+    padding-right: 17%;
+}
+
+.new-dish-order-btn {
+    margin-top: 30px;
+    background-color: #008037;
+    color: white;
+}
+
+.new-dish-order-btn:hover {
+    text-decoration: none;
+    color:white;
+    background-color: #008037ca;
+}
+
+.content-block3 {
+    background-color: #3c4e6a;
+    color: white;
+    align-items: center;
+}
+
+.signature-title {
+    font-family: Candal;
+    padding-top: 20px;
+    font-size: 50px;
+    text-align: center;
+    color: #ec9736;
+}
+
+.signature-img {
+    max-width: 80%;
+    padding-bottom: 5px;
+    padding-top:10px;
+}
+
+.signature-name {
+    font-family: Candal;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #ecaf8a;
+}
+
+.to-menu-btn {
+    background-color: #ec9736;
+    color: white;
+    border: none;
+    margin-bottom: 27px;
+    align-items: center;
+    margin-left: 40%;
+    margin-right: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 10px;
+    font-weight: bolder;
+}
+
+.to-menu-btn:hover {
+    background-color: #ec9736de;
+    text-decoration: none;
+    color: white;
+}
+
+.footer-header {
+    font-weight: bold;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.footer-elm {
+    list-style: none;
+    text-align: left;
+}
+
+.footer-content {
+    color: #3c4e6ab8;
+    padding-bottom:10px;
+    font-size: 18px;
+}
+
+.footer-content:hover {
+    color: #3c4e6a;
+}
+
+
+
+
+
+
+
+
+
+.menu-background {
+    background-color: #3c4e6a;
+}
+
+.menu-title {
+    color:white;
+    font-size: 50px;
+    font-family: Candal;
+    padding-top: 30px;
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+.menu-food-name {
+    color: #ecaf8a;
+    text-align: left;
+    font-family: Candal;
+    padding-bottom: 20px;
+    padding-top: 30px;
+}
+
+.menu-food-describe {
+    color: white;
+    text-align: left;
+    padding-bottom: 0;
+}
+
+.menu-food-price {
+    color: #ecaf8a;
+    text-align: left;
+    font-size: larger;
+    text-decoration: underline;
+    padding-bottom: 20px;
+}
+
+.menu-order-btn {
+    color: white;
+    background-color: #008037;  
+    border: none; 
+    margin-bottom: 27px;
+    align-items: center;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-top: 40px;
+}
+
+.menu-order-btn:hover {
+    background-color: #008037dd;
+    text-decoration: none;
+    color: white;
+}
+
+
